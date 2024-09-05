@@ -1,0 +1,6 @@
+# Dataset configuration
+path: /Users/carl/Documents/GitHub/LicenseRecognition/dataset
+train: images/train.txt
+val: images/val.txt
+nc: 1  # Since we're detecting only license plates, nc is 1
+names: ['license_plate']
