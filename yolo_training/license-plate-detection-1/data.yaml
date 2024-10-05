@@ -1,0 +1,13 @@
+train: /home/carl/license-plate-detection-1/train/images
+val: /home/carl/license-plate-detection-1/valid/images
+test: /home/carl/license-plate-detection-1/test/images
+
+nc: 1
+names: ['LicensePlate']
+
+roboflow:
+  workspace: eyantra-twpmn
+  project: license-plate-detection-g15hx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eyantra-twpmn/license-plate-detection-g15hx/dataset/1
